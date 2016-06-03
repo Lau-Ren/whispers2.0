@@ -7,11 +7,16 @@ class App extends Component {
     super(props)
   }
 
+  handleClick (){
+   
+
+  }
+
   render () {
     return (
       <div>
         <h1>Welcome to {this.props.name}</h1>
-        <Form />
+        <Form onClick={this.handleClick}/>
       </div>
 
       )
